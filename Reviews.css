@@ -1,0 +1,161 @@
+#a{
+    margin-left:620px;
+    margin-top:-200px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 13px;
+     padding: 5px;
+     box-sizing: border-box;
+     max-width: 300px;
+    height: 280px;
+     
+}
+#b{
+    margin-left:1010px;
+    margin-top:-280px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 13px;
+     padding: 5px;
+     box-sizing: border-box;
+     max-width: 292px;
+     height: 280px;
+    
+}
+#c{
+    margin-left: 190px;
+    margin-bottom:-280px;
+    width: 300px;
+    height: 280px;
+    font-size: 13px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(240, 244, 246);
+    padding: 5px;
+    box-sizing: border-box;
+    max-width: 600px;
+    
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    margin-left: 250px;
+    margin-top:-40px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.a{
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    margin-left: 250px;
+    margin-top:-40px;
+}
+.a:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    
+}
+.a:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.a:not(:checked) > label:before {
+    content: '★ ';
+}
+.a > input:checked ~ label {
+    color: #ffc700;    
+}
+.a:not(:checked) > label:hover,
+.a:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.a > input:checked + label:hover,
+.a > input:checked + label:hover ~ label,
+.a > input:checked ~ label:hover,
+.a > input:checked ~ label:hover ~ label,
+.a > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.b {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    margin-left: 250px;
+    margin-top:-40px;
+}
+.b:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    
+}
+.b:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.b:not(:checked) > label:before {
+    content: '★ ';
+}
+.b > input:checked ~ label {
+    color: #ffc700;    
+}
+.b:not(:checked) > label:hover,
+.b:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.b > input:checked + label:hover,
+.b > input:checked + label:hover ~ label,
+.b > input:checked ~ label:hover,
+.b > input:checked ~ label:hover ~ label,
+.b > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+#b1{
+    word-spacing: 80px;
+    margin-left:-5px;
+    margin-top:-55px;
+}
+
+

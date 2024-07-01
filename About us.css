@@ -1,0 +1,17 @@
+#m{
+    margin-left: 920px;
+    margin-top:-500px;
+    font-size: larger;
+}
+img:hover{
+    transform:scale(1.03);
+    border: 2px solid;
+    margin-left: 50px;
+    border-color: white;
+}
+#b1{
+    word-spacing: 80px;
+    margin-left:-5px;
+    margin-top:-55px;
+}
+
